@@ -6,10 +6,10 @@ const db = require('quick.db');
 const { TOKEN, PREFIX, AVATARURL, BOTNAME, } = require(`./config.json`);
 const figlet = require("figlet");
 const client = new Client({ disableMentions: `` , partials: ['MESSAGE', 'CHANNEL', 'REACTION'] });
-client.login("");
+client.login("ODcwNjU4NjgwNjM3NTAxNDYx.YQP-FQ.pyo3_eOScS2aRYPavS0TbtqGFrA");
 client.commands = new Collection();
 client.setMaxListeners(0);
-client.prefix = PREFIX;
+client.prefix = PREFIX+
 client.queue = new Map();
 const cooldowns = new Collection();
 const escapeRegex = (str) => str.replace(/[.*+?^${}()|[\]\\]/g, `\\$&`);
@@ -871,9 +871,9 @@ client.on(`message`, async (message) => {
     .setTimestamp()
     .setDescription(`
 
-[{Support}](https://discord.gg/progresshome)
+[{Support}](https://discord.gg/Smart)
 
-[{Invite}](https://discord.com/api/oauth2/authorize?client_id=807350534901071932&permissions=8&scope=bot)
+[{Invite}](https://discord.com/api/oauth2/authorize?client_id=870658680637501461&permissions=8&scope=bot)
 
 **{Developers Bot}** :
 Dev/<@701546840063082601>
@@ -885,7 +885,7 @@ Online
 19/6/2021
 
 **{Prefix Bot}** :
-$
++
 
 `)
 
